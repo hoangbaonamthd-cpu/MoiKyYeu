@@ -75,7 +75,7 @@ if st.session_state.step == 'start':
     st.markdown("<h1 class='title-gold'>The Invitation</h1>", unsafe_allow_html=True)
     name = st.text_input("Gửi tới người bạn đặc biệt:", placeholder="Nhập tên người nhận...")
     
-    if st.button("MỞ THƯ MỜI ❤️"):
+    if st.button("MỞ THƯ MỜI"):
         if name:
             st.session_state.target_name = name
             st.session_state.step = 'card'
@@ -114,4 +114,5 @@ else:
     if st.button("Quay lại"):
         st.session_state.step = 'start'
         st.rerun()
+
 
