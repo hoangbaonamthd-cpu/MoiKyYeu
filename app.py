@@ -126,7 +126,7 @@ else:
             Sự hiện diện của bạn là món quà ý nghĩa nhất đối với mình!<br><br>
             <p style="text-align: right;">
                 <i>Hưng Yên,10h30 ngày 11/01/2026</i><br>
-                <b>Bạn của bạn: Bảo Nam</b>
+                <b>Ký Tên: Bảo Nam</b>
             </p>
         </div>
     </div>
@@ -135,5 +135,6 @@ else:
     if st.button("Quay lại"):
         st.session_state.step = 'start'
         st.rerun()
+
 
 
